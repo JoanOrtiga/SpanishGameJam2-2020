@@ -19,11 +19,15 @@ public class Movement : MonoBehaviour
     [HideInInspector] public bool extraJump = false;
     public float dashSpeed = 20;
 
+    private float gravityScale;
+    [HideInInspector] public bool jumpedOfGround = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collisions>();
+
+        gravityScale = rb.gravityScale;
     }
 
     private void Update()
@@ -37,8 +41,12 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {            
+            
+
             if (coll.onGround || extraJump)
             {
+                jumpedOfGround = true;
+
                 if (extraJump)
                 {
                     extraJump = false;
@@ -49,7 +57,10 @@ public class Movement : MonoBehaviour
             }
                
             else if (coll.onWall && canWallJump)
+            {
                 WallJump();
+                jumpedOfGround = true;
+            }
         }
 
         if (coll.onGround)
@@ -58,6 +69,7 @@ public class Movement : MonoBehaviour
             canWallJump = true;
         }
 
+        
     }
 
     private void Walk(Vector2 dir)
@@ -112,7 +124,7 @@ public class Movement : MonoBehaviour
 
         dashing = false;
         GetComponent<BetterJump>().enabled = true;
-        rb.gravityScale = 1;
+        rb.gravityScale = gravityScale;
     }
 
 }

@@ -8,18 +8,21 @@ public class BetterJump : MonoBehaviour
     public float lowJumpMultiplier = 2.0f;
 
     Rigidbody2D rb;
+    Movement mov;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        mov = GetComponent<Movement>();
     }
     private void Update()
     {
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            mov.jumpedOfGround = false;
         }
-        else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
+        else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space) && mov.jumpedOfGround)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
