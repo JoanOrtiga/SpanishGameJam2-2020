@@ -5,16 +5,19 @@ using UnityEngine;
 public class Dash : MonoBehaviour
 {
     public DashPositions dashPos;
+    public bool rotate = false;
 
     float rotationAngle;
 
-    float time = 3f;
+    public float time = 3f;
+    private float startTime;
 
     Vector2 rotation;
 
     private void Start()
     {
-        rotation = new Vector2(0, 1);
+        rotation = GetAxis();
+        startTime = time;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,9 +34,9 @@ public class Dash : MonoBehaviour
 
         time -= Time.deltaTime;
 
-        if(time <= 0)
+        if(time <= 0 && rotate)
         {
-            time = 3f;
+            time = startTime;
 
             if((int)dashPos == 7)
             {
@@ -43,7 +46,11 @@ public class Dash : MonoBehaviour
                 dashPos = (DashPositions)((int)dashPos + 1);
 
             rotation = GetAxis();
-        }        
+        }
+        else if (!rotate)
+        {
+
+        }
     }
 
     private Vector2 GetAxis()
