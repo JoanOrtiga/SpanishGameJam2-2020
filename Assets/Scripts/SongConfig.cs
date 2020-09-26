@@ -13,11 +13,15 @@ public class SongConfig : MonoBehaviour
         if (playing)
             for (int i = 0; i < attacks.Length; i++)
             {
-                attacks[i].second -= Time.deltaTime;
-
-                if(attacks[i].second <= 0)
+                if (!attacks[i].played)
                 {
-                    SendNewInstrument(i);
+                    attacks[i].second -= Time.deltaTime;
+
+                    if (attacks[i].second <= 0)
+                    {
+                        attacks[i].played = true;
+                        SendNewInstrument(i);
+                    }
                 }
             }
     }
@@ -37,5 +41,6 @@ public enum InstrumentAttack
 public struct Attacks
 {
     public InstrumentAttack instrument;
+    public bool played;
     public float second;
 }
