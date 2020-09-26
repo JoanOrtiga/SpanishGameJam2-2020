@@ -1,91 +1,34 @@
 fileFormatVersion: 2
-guid: 12fe439cfe160ad409e191b7a4df7890
+guid: 4acebdf1add30bf4ab055dbf57cf7734
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8301242082095913938
-    second: salto aseprite_0
+      213: -8873575683334577371
+    second: pua portait_0
   - first:
-      213: 8977571272443490320
-    second: salto aseprite_1
+      213: -3337098260776294825
+    second: pua portait_1
   - first:
-      213: 6196632742709501730
-    second: salto aseprite_2
+      213: 6110273294646706469
+    second: pua portait_2
   - first:
-      213: 5238129225041244810
-    second: salto aseprite_3
+      213: -4451516103555809076
+    second: pua portait_3
   - first:
-      213: -710555481742266624
-    second: salto aseprite_4
+      213: -16395621236239003
+    second: pua portait_4
   - first:
-      213: -7290247295309503908
-    second: salto aseprite_5
+      213: -1294945533396404626
+    second: pua portait_5
   - first:
-      213: -3663753391969337855
-    second: salto aseprite_6
+      213: 139289826282037639
+    second: pua portait_6
   - first:
-      213: -5595712759299683836
-    second: salto aseprite_7
+      213: 8553184845578943676
+    second: pua portait_7
   - first:
-      213: 8344936535954679594
-    second: salto aseprite_8
-  - first:
-      213: 7039636553722303000
-    second: salto aseprite_9
-  - first:
-      213: 2633430630071054434
-    second: salto aseprite_0
-  - first:
-      213: -6771177335483723267
-    second: salto aseprite_1
-  - first:
-      213: 474106310762019247
-    second: salto aseprite_2
-  - first:
-      213: -4120885765054670925
-    second: salto aseprite_3
-  - first:
-      213: 7960280237308398140
-    second: salto aseprite_4
-  - first:
-      213: 3782559459048810026
-    second: salto aseprite_5
-  - first:
-      213: -5527864817972172988
-    second: salto aseprite_6
-  - first:
-      213: -8671762601446800057
-    second: salto aseprite_7
-  - first:
-      213: 5789064602978478555
-    second: salto aseprite_8
-  - first:
-      213: 3119882800413184671
-    second: salto aseprite_9
-  - first:
-      213: 1437874787211594182
-    second: salto aseprite_10
-  - first:
-      213: 3843821799630592035
-    second: salto aseprite_11
-  - first:
-      213: 4014779599305720625
-    second: salto aseprite_12
-  - first:
-      213: -2458004854487225403
-    second: salto aseprite_13
-  - first:
-      213: -5774614743187789723
-    second: salto aseprite_14
-  - first:
-      213: -456086425833963125
-    second: salto aseprite_15
-  - first:
-      213: -6595131668907809276
-    second: salto aseprite_16
-  - first:
-      213: 3370564465817644625
-    second: salto aseprite_17
+      213: 1812479329701837428
+    second: pua portait_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,10 +90,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,10 +102,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -173,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: salto aseprite_0
+      name: pua portait_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 66
-        height: 88
+        x: 477
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260b40e9433db8420800000000000000
-      internalID: 2633430630071054434
+      spriteID: 5236c432ee9bad480800000000000000
+      internalID: -8873575683334577371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_1
+      name: pua portait_1
       rect:
         serializedVersion: 2
-        x: 203
-        y: 0
-        width: 66
-        height: 88
+        x: 1117
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df1115fa612f702a0800000000000000
-      internalID: -6771177335483723267
+      spriteID: 756ead100de30b1d0800000000000000
+      internalID: -3337098260776294825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_2
+      name: pua portait_2
       rect:
         serializedVersion: 2
-        x: 401
-        y: 0
-        width: 66
-        height: 88
+        x: 1757
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9bdbe7d2d549600800000000000000
-      internalID: 474106310762019247
+      spriteID: 52109f7103d0cc450800000000000000
+      internalID: 6110273294646706469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_3
+      name: pua portait_3
       rect:
         serializedVersion: 2
-        x: 599
-        y: 0
-        width: 66
-        height: 88
+        x: 2397
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7d3f5ea3cafc6c0800000000000000
-      internalID: -4120885765054670925
+      spriteID: cc000af50b90932c0800000000000000
+      internalID: -4451516103555809076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_4
+      name: pua portait_4
       rect:
         serializedVersion: 2
-        x: 797
-        y: 0
-        width: 66
-        height: 88
+        x: 3037
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a445153b8987e60800000000000000
-      internalID: 7960280237308398140
+      spriteID: 5659754f440c5cff0800000000000000
+      internalID: -16395621236239003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_5
+      name: pua portait_5
       rect:
         serializedVersion: 2
-        x: 995
-        y: 0
-        width: 66
-        height: 88
+        x: 3677
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26e56289c95e7430800000000000000
-      internalID: 3782559459048810026
+      spriteID: e66bd66f5ed670ee0800000000000000
+      internalID: -1294945533396404626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_6
+      name: pua portait_6
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 0
-        width: 66
-        height: 88
+        x: 4317
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447a3666c341943b0800000000000000
-      internalID: -5527864817972172988
+      spriteID: 781ed58eb5bdee100800000000000000
+      internalID: 139289826282037639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_7
+      name: pua portait_7
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 0
-        width: 66
-        height: 88
+        x: 4957
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7450f34ebd5b7a780800000000000000
-      internalID: -8671762601446800057
+      spriteID: cbcbcf2ec4403b670800000000000000
+      internalID: 8553184845578943676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto aseprite_8
+      name: pua portait_8
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 0
-        width: 66
-        height: 88
+        x: 5597
+        y: 230
+        width: 161
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,29 +298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd9e15aa593e65050800000000000000
-      internalID: 5789064602978478555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: salto aseprite_9
-      rect:
-        serializedVersion: 2
-        x: 1787
-        y: 0
-        width: 66
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f929a7b80ec0c4b20800000000000000
-      internalID: 3119882800413184671
+      spriteID: 47abd91f858372910800000000000000
+      internalID: 1812479329701837428
       vertices: []
       indices: 
       edges: []
