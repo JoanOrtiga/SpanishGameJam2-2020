@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     Rigidbody2D rb;
     Collisions coll;
+    Animator anim;
 
     [SerializeField] private float speed = 10;
     [SerializeField] private float jumpforce = 10;
@@ -26,6 +27,7 @@ public class Movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collisions>();
+        anim = GetComponent<Animator>();
 
         gravityScale = rb.gravityScale;
     }
@@ -41,8 +43,6 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {            
-            
-
             if (coll.onGround || extraJump)
             {
                 jumpedOfGround = true;
@@ -50,6 +50,12 @@ public class Movement : MonoBehaviour
                 if (extraJump)
                 {
                     extraJump = false;
+                }
+                else
+                {
+                    anim.SetFloat("VerticalSpeed", rb.velocity.y);
+                    anim.SetTrigger("Jump");
+                    
                 }
 
                 
@@ -69,7 +75,17 @@ public class Movement : MonoBehaviour
             canWallJump = true;
         }
 
-        
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            transform.localScale = new Vector2(-1, 1);
+        }
+        else if (Input.GetAxis("Horizontal") > 0)
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
+
+        anim.SetBool("OnWall", coll.onWall);
+        anim.SetFloat("VerticalSpeed", rb.velocity.y);
     }
 
     private void Walk(Vector2 dir)
@@ -77,7 +93,11 @@ public class Movement : MonoBehaviour
         if (!canMove || dashing /*|| coll.onWall*/)
             return;
 
+        anim.SetFloat("InputX", dir.x);
+
+
         rb.velocity = (new Vector2(dir.x * speed, rb.velocity.y));
+
     }
 
     private void Jump(Vector2 dir)
