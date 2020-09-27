@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SongUI : MonoBehaviour
 {
@@ -13,10 +14,9 @@ public class SongUI : MonoBehaviour
 
     public Scroll compasScrollScript;
 
-    public GameObject pressBar;
+    public PressBar pressBar;
 
     public InstrumentsUI[] instruments;
-
 
 }
 
