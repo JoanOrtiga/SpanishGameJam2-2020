@@ -14,13 +14,15 @@ public class Movement : MonoBehaviour
 
     private bool canMove = true;
     private bool canWallJump = true;
-    private bool dashing = false;
+    public bool dashing = false;
 
     [HideInInspector] public bool extraJump = false;
     public float dashSpeed = 20;
 
     private float gravityScale;
     [HideInInspector] public bool jumpedOfGround = false;
+
+    public bool isJumping = false;
 
     private void Start()
     {
@@ -82,6 +84,8 @@ public class Movement : MonoBehaviour
 
     private void Jump(Vector2 dir)
     {
+        isJumping = true;
+
         rb.velocity = dir * jumpforce;
     }
     private void WallJump()
