@@ -6,6 +6,8 @@ TagManager:
   tags:
   - MusicSlider
   - sfxSlider
+  - PressBar
+  - Instrument
   layers:
   - Default
   - TransparentFX

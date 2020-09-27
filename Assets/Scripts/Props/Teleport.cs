@@ -7,10 +7,12 @@ public class Teleport : MonoBehaviour
     public Teleport portal;
 
     Collider2D coll;
+    Animator anim;
 
     private void Start()
     {
         coll = GetComponent<Collider2D>();
+        anim = GetComponent<Animator>();
     }
 
 
@@ -19,6 +21,8 @@ public class Teleport : MonoBehaviour
         if(collision.tag == "Player")
         {
             collision.transform.position = portal.transform.position;
+
+            anim.SetTrigger("UsedPortal");
 
             portal.StartCoroutine(portal.DisableTeleport(1f));
         }

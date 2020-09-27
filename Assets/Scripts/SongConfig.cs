@@ -17,6 +17,8 @@ public class SongConfig : MonoBehaviour
     private float piecesSpeed;
     private float timeToArrive;
 
+    private int health;
+
     private void Start()
     {
         songUI = GetComponent<SongUI>();
@@ -33,9 +35,15 @@ public class SongConfig : MonoBehaviour
         {
             attacks[i].second -= 7.9f;
         }
+
+        songUI.pressBar.playedInstrument.AddListener(UpdateHealthBar);
     }
 
-   
+    private void UpdateHealthBar()
+    {
+        health++;
+        songUI.healthBar.fillAmount = ((float)attacks.Length - health) / attacks.Length;
+    }
 
     private void Update()
     {
@@ -46,45 +54,40 @@ public class SongConfig : MonoBehaviour
                 {
                     attacks[i].second -= Time.deltaTime;
 
-                    
+
 
                     if (attacks[i].second <= 0)
                     {
                         attacks[i].played = true;
-                        if(i+1 < attacks.Length)
-                           NewPreviewInstrument(attacks[i + 1].instrument);
+                        if (i + 1 < attacks.Length)
+                            NewPreviewInstrument(attacks[i + 1].instrument);
                         else
                         {
                             NewPreviewInstrument(attacks[i].instrument);
                             Destroy(previewObject);
                         }
-                        
-                        songUI.pua.SetBool("newPiece", true);
+
+                        songUI.pua.SetTrigger("Activate");
                     }
                 }
             }
-    }
-
-    private void LateUpdate()
-    {
-        songUI.pua.SetBool("newPiece", false);
     }
 
     private void NewPreviewInstrument(InstrumentAttack inst)
     {
         for (int i = 0; i < songUI.instruments.Length; i++)
         {
-            if(inst == songUI.instruments[i].instrument)
+            if (inst == songUI.instruments[i].instrument)
             {
                 if (previewObject != null)
                 {
-                    
+
                     previewObject.transform.SetParent(songUI.spawnPiece.transform);
-                    previewObject.GetComponent < InstrumentMovement>().enabled = true;
+                    previewObject.GetComponent<InstrumentMovement>().enabled = true;
                     previewObject.transform.position = songUI.spawnPiece.transform.position;
                     previewObject.transform.localScale = Vector2.one;
                 }
-                    
+
 
                 previewObject = Instantiate(songUI.instruments[i].uiInstrument, songUI.previewPiecePlace.transform);
                 previewObject.GetComponent<InstrumentMovement>().speed = piecesSpeed;
