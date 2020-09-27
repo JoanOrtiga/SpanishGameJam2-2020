@@ -26,8 +26,8 @@ public class AudioManager : MonoBehaviour
     [Range(0f, 1f)] [SerializeField] private float SFXVolume;
     public static AudioManager AudioInstance;
     private Movement playerMovement;
-    [SerializeField] private Slider musicSlider;
-    [SerializeField] private Slider sfxSlider;
+    private Slider musicSlider;
+    private Slider sfxSlider;
     void Awake()
     {
         musicSlider = GameObject.FindGameObjectWithTag("MusicSlider").GetComponent<Slider>();
@@ -72,12 +72,11 @@ public class AudioManager : MonoBehaviour
     {
         music.volume = MusicVolume;
         music.clip = musicClips[SceneManager.GetActiveScene().buildIndex];
-        music.loop = true;
+        music.loop = false;
         music.Play();
     }
     private void OnLevelWasLoaded(int level)
     {
-        print("a");
         musicSlider = GameObject.FindGameObjectWithTag("MusicSlider").GetComponent<Slider>();
         sfxSlider = GameObject.FindGameObjectWithTag("sfxSlider").GetComponent<Slider>();
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>();
@@ -85,14 +84,15 @@ public class AudioManager : MonoBehaviour
         sfxSlider.value = SFXVolume;
         musicSlider.onValueChanged.AddListener(SetVolumeMusic);
         sfxSlider.onValueChanged.AddListener(SetVolumeMusic);
+        MusicSetUp();
     }
     void Update()
     {
-        if (!music.isPlaying)
+        if (music.clip.length < Time.timeSinceLevelLoad)
         {
-            print("LEVEL COMPLETED");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        if (playerMovement.isJumping)
+        if (playerMovement.isJumping && Input.GetKeyDown(KeyCode.Space))
         {
             sounds[UnityEngine.Random.Range(0, 3)].source.Play();
         }
