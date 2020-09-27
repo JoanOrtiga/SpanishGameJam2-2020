@@ -86,6 +86,11 @@ public class Movement : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
 
+        if(rb.velocity.y == 0 || rb.velocity.y < 0)
+        {
+            isJumping = false;
+        }
+
         anim.SetBool("OnWall", coll.onWall);
         anim.SetFloat("VerticalSpeed", rb.velocity.y);
     }
