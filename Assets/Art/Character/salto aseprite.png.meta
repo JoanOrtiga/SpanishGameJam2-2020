@@ -32,60 +32,6 @@ TextureImporter:
   - first:
       213: 7039636553722303000
     second: salto aseprite_9
-  - first:
-      213: 2633430630071054434
-    second: salto aseprite_0
-  - first:
-      213: -6771177335483723267
-    second: salto aseprite_1
-  - first:
-      213: 474106310762019247
-    second: salto aseprite_2
-  - first:
-      213: -4120885765054670925
-    second: salto aseprite_3
-  - first:
-      213: 7960280237308398140
-    second: salto aseprite_4
-  - first:
-      213: 3782559459048810026
-    second: salto aseprite_5
-  - first:
-      213: -5527864817972172988
-    second: salto aseprite_6
-  - first:
-      213: -8671762601446800057
-    second: salto aseprite_7
-  - first:
-      213: 5789064602978478555
-    second: salto aseprite_8
-  - first:
-      213: 3119882800413184671
-    second: salto aseprite_9
-  - first:
-      213: 1437874787211594182
-    second: salto aseprite_10
-  - first:
-      213: 3843821799630592035
-    second: salto aseprite_11
-  - first:
-      213: 4014779599305720625
-    second: salto aseprite_12
-  - first:
-      213: -2458004854487225403
-    second: salto aseprite_13
-  - first:
-      213: -5774614743187789723
-    second: salto aseprite_14
-  - first:
-      213: -456086425833963125
-    second: salto aseprite_15
-  - first:
-      213: -6595131668907809276
-    second: salto aseprite_16
-  - first:
-      213: 3370564465817644625
-    second: salto aseprite_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -169,6 +115,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -176,19 +134,19 @@ TextureImporter:
       name: salto aseprite_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3249145, y: 0.3162222}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260b40e9433db8420800000000000000
-      internalID: 2633430630071054434
+      spriteID: 2dbd9d911bfe33370800000000000000
+      internalID: 8301242082095913938
       vertices: []
       indices: 
       edges: []
@@ -197,19 +155,19 @@ TextureImporter:
       name: salto aseprite_1
       rect:
         serializedVersion: 2
-        x: 203
+        x: 200
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3406517, y: 0.28813872}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df1115fa612f702a0800000000000000
-      internalID: -6771177335483723267
+      spriteID: 010febfc18db69c70800000000000000
+      internalID: 8977571272443490320
       vertices: []
       indices: 
       edges: []
@@ -218,19 +176,19 @@ TextureImporter:
       name: salto aseprite_2
       rect:
         serializedVersion: 2
-        x: 401
+        x: 400
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.34970552, y: 0.29357105}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9bdbe7d2d549600800000000000000
-      internalID: 474106310762019247
+      spriteID: 22f11c8f5acdef550800000000000000
+      internalID: 6196632742709501730
       vertices: []
       indices: 
       edges: []
@@ -239,19 +197,19 @@ TextureImporter:
       name: salto aseprite_3
       rect:
         serializedVersion: 2
-        x: 599
+        x: 600
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4456769, y: 0.34970525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7d3f5ea3cafc6c0800000000000000
-      internalID: -4120885765054670925
+      spriteID: a82fc2207c291b840800000000000000
+      internalID: 5238129225041244810
       vertices: []
       indices: 
       edges: []
@@ -260,19 +218,19 @@ TextureImporter:
       name: salto aseprite_4
       rect:
         serializedVersion: 2
-        x: 797
+        x: 800
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3678137, y: 0.32254353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a445153b8987e60800000000000000
-      internalID: 7960280237308398140
+      spriteID: 00fab85dd899326f0800000000000000
+      internalID: -710555481742266624
       vertices: []
       indices: 
       edges: []
@@ -281,19 +239,19 @@ TextureImporter:
       name: salto aseprite_5
       rect:
         serializedVersion: 2
-        x: 995
+        x: 1000
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.31892213, y: 0.32435432}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26e56289c95e7430800000000000000
-      internalID: 3782559459048810026
+      spriteID: c522356d5b6d3da90800000000000000
+      internalID: -7290247295309503908
       vertices: []
       indices: 
       edges: []
@@ -302,19 +260,19 @@ TextureImporter:
       name: salto aseprite_6
       rect:
         serializedVersion: 2
-        x: 1192
+        x: 1200
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.30986938, y: 0.31530043}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447a3666c341943b0800000000000000
-      internalID: -5527864817972172988
+      spriteID: 10ef80f83bbb72dc0800000000000000
+      internalID: -3663753391969337855
       vertices: []
       indices: 
       edges: []
@@ -323,19 +281,19 @@ TextureImporter:
       name: salto aseprite_7
       rect:
         serializedVersion: 2
-        x: 1391
+        x: 1400
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.32073364, y: 0.2990034}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7450f34ebd5b7a780800000000000000
-      internalID: -8671762601446800057
+      spriteID: 40a42dc84e80852b0800000000000000
+      internalID: -5595712759299683836
       vertices: []
       indices: 
       edges: []
@@ -344,19 +302,19 @@ TextureImporter:
       name: salto aseprite_8
       rect:
         serializedVersion: 2
-        x: 1589
+        x: 1600
         y: 0
-        width: 66
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.34065306, y: 0.35694835}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd9e15aa593e65050800000000000000
-      internalID: 5789064602978478555
+      spriteID: a27e1cae09b2fc370800000000000000
+      internalID: 8344936535954679594
       vertices: []
       indices: 
       edges: []
@@ -365,19 +323,19 @@ TextureImporter:
       name: salto aseprite_9
       rect:
         serializedVersion: 2
-        x: 1787
+        x: 1800
         y: 0
-        width: 66
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3116797, y: 0.4384335}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f929a7b80ec0c4b20800000000000000
-      internalID: 3119882800413184671
+      spriteID: 8121974e520d1b160800000000000000
+      internalID: 7039636553722303000
       vertices: []
       indices: 
       edges: []

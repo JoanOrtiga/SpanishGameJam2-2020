@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: fd999464c5c6ed3488b400803ab1ecc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7400312033093774343
+    second: prota runingstop (1)_0
+  - first:
+      213: 7755421613806167158
+    second: prota runingstop (1)_1
+  - first:
+      213: 5151008324803801013
+    second: prota runingstop (1)_2
+  - first:
+      213: 1278382673960238441
+    second: prota runingstop (1)_3
+  - first:
+      213: 3305147232914527470
+    second: prota runingstop (1)_4
+  - first:
+      213: -2454630815156163198
+    second: prota runingstop (1)_5
+  - first:
+      213: 6259608397469968804
+    second: prota runingstop (1)_6
+  - first:
+      213: 598653080069243411
+    second: prota runingstop (1)_7
+  - first:
+      213: -1258213753087747454
+    second: prota runingstop (1)_8
+  - first:
+      213: 1964358412116180740
+    second: prota runingstop (1)_9
+  - first:
+      213: 6434657561386315712
+    second: prota runingstop (1)_10
+  - first:
+      213: -4752446498897433068
+    second: prota runingstop (1)_11
+  - first:
+      213: 4014781279817169006
+    second: prota runingstop (1)_12
+  - first:
+      213: 4933352433131752959
+    second: prota runingstop (1)_13
+  - first:
+      213: 8911082658574991648
+    second: prota runingstop (1)_14
+  - first:
+      213: -5309724889227399436
+    second: prota runingstop (1)_15
+  - first:
+      213: -5787075634408440101
+    second: prota runingstop (1)_16
+  - first:
+      213: -8550359312441181985
+    second: prota runingstop (1)_17
+  - first:
+      213: -2603317701408470884
+    second: prota runingstop (1)_18
+  - first:
+      213: 5770593421561754155
+    second: prota runingstop (1)_19
+  - first:
+      213: 2221435594595389828
+    second: prota runingstop (1)_20
+  - first:
+      213: -8710952543685818173
+    second: prota runingstop (1)_21
+  - first:
+      213: 8987067599662263729
+    second: prota runingstop (1)_22
+  - first:
+      213: -7637283007097008857
+    second: prota runingstop (1)_23
+  - first:
+      213: 3097376182552606316
+    second: prota runingstop (1)_24
+  - first:
+      213: -584537424851592024
+    second: prota runingstop (1)_25
+  - first:
+      213: 4483487044505977017
+    second: prota runingstop (1)_26
+  - first:
+      213: 6636511197518979963
+    second: prota runingstop (1)_27
+  - first:
+      213: 756642477344859936
+    second: prota runingstop (1)_28
+  - first:
+      213: 4748529589352491880
+    second: prota runingstop (1)_29
+  - first:
+      213: -9215442432617223534
+    second: prota runingstop (1)_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prota runingstop (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f395681a6fcc4990800000000000000
+      internalID: -7400312033093774343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ad462edac0ab60800000000000000
+      internalID: 7755421613806167158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfa20bb7ce0c7740800000000000000
+      internalID: 5151008324803801013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df960d44abdb110800000000000000
+      internalID: 1278382673960238441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee45c3c95ed3edd20800000000000000
+      internalID: 3305147232914527470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da3ef57466fedd0800000000000000
+      internalID: -2454630815156163198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9ef343ca89ed650800000000000000
+      internalID: 6259608397469968804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3128835fdc7de4800800000000000000
+      internalID: 598653080069243411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a91b3024de98ee0800000000000000
+      internalID: -1258213753087747454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f3cb5719dc24b10800000000000000
+      internalID: 1964358412116180740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf66b5b5fe7c4950800000000000000
+      internalID: 6434657561386315712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e6b2bb61beb0eb0800000000000000
+      internalID: -4752446498897433068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68f3628d4e57b730800000000000000
+      internalID: 4014781279817169006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prota runingstop (1)_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd80a066e9c67440800000000000000
+      internalID: 4933352433131752959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
