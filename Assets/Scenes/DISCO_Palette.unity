@@ -1362,6 +1362,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasDisco
       objectReference: {fileID: 0}
+    - target: {fileID: 1373499103440647104, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
+      propertyPath: m_Color.r
+      value: 0.41411534
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373499103440647104, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
+      propertyPath: m_Color.g
+      value: 0.44229457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373499103440647104, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6226415
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
 --- !u!1 &1020112446
