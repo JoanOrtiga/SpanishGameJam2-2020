@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 4096089908463822243}
   - component: {fileID: 4096089908463822253}
   - component: {fileID: 4096089908463822242}
+  - component: {fileID: 854316966}
+  - component: {fileID: 854316965}
   m_Layer: 0
   m_Name: guitar_4
   m_TagString: Untagged
@@ -101,8 +103,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1330024697
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 4756626964592706986, guid: fdcd800174911074daa548a05aa14329, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -134,6 +136,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &854316966
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096089908463822240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.015948772, y: -0.041201398}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9142857, y: 0.2}
+    newSize: {x: 2.857143, y: 0.5714286}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7654295, y: 0.11759719}
+  m_EdgeRadius: 0
+--- !u!114 &854316965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096089908463822240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730a6434842a5f34093bc14bafb0d76b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instrument: 0
 --- !u!1 &4096089908855281140
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,8 +243,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1330024697
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -4876614519491423539, guid: fdcd800174911074daa548a05aa14329, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
