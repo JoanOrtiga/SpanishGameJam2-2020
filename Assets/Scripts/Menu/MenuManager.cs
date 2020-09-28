@@ -16,12 +16,16 @@ public class MenuManager : MonoBehaviour
 
     public void ShowMenu()
     {
-        gameObjectToShow.SetActive(true);
+        gameObjectToShow.GetComponent<CanvasGroup>().alpha = 1;
+        gameObjectToShow.GetComponent<CanvasGroup>().interactable = true;
+        gameObjectToShow.GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
 
     public void HideMenu()
     {
-        gameObjectToShow.SetActive(false);
+        gameObjectToShow.GetComponent<CanvasGroup>().alpha = 0;
+        gameObjectToShow.GetComponent<CanvasGroup>().interactable = false;
+        gameObjectToShow.GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
     public void CloseGame()

@@ -1535,12 +1535,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueUI
       value: 
       objectReference: {fileID: 364384274}
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: resetLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[0]
+      value: Al infierno
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218887, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: m_Text
+      value: Lo que les sucede a los pecadores
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308430684124, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_IsActive
@@ -1657,9 +1677,99 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueUI
       value: 
       objectReference: {fileID: 394388996}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[0]
+      value: cual ha sido tu triste destino...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[1]
+      value: un momento, estas vivo, como ha...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[2]
+      value: entiendo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[3]
+      value: "solo con la m\xFAsica se puede llegar a dios dicen los tuyos y aqu\xED
+        estas,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[4]
+      value: "es incre\xEDble que hayas llegado tan lejos,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[5]
+      value: ' y buscas derrotarme...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[6]
+      value: "que sera lo pr\xF3ximo, acaso no ten\xE9is suficiente,"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[7]
+      value: acaso tengo que volver a ahogaros lanzaros bolas de fuego
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[8]
+      value: EXPULSAROS DEL EDEN!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[9]
+      value: acaso tengo que volver a ahogaros lanzaros bolas de fuego
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[10]
+      value: "omo Padre de todos tengo que ser ben\xE9volo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[11]
+      value: acaso tengo que volver a ahogaros lanzaros bolas de fuego
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[12]
+      value: "pero tambi\xE9n firme! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[13]
+      value: Experimentaras la peor derrota de tu vida,
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[14]
+      value: mis brazos tocaran musica celestial
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[15]
+      value: mi voz cantara con una dulzura inmaculada
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[16]
+      value: 'hoy rasgare las cuerdas de mi guitarra '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[17]
+      value: "y sus ondas de sonido destrozaran tu cuerpo y al fin comprender\xE1s
+        que "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[18]
+      value: YO SOY DIOS!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[19]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218887, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: m_Text
+      value: Otro hijo que llega a mi...
+      objectReference: {fileID: 0}
     - target: {fileID: 4148972308430684124, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2317,6 +2427,22 @@ PrefabInstance:
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: nextLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[0]
+      value: Derrotarme
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[1]
+      value: Supongo que tu seras el nuevo dios
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: dialogueText.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218887, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: m_Text
+      value: Como has podido...
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308430684124, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_IsActive
@@ -3968,7 +4094,6 @@ GameObject:
   - component: {fileID: 942704607}
   - component: {fileID: 942704610}
   - component: {fileID: 942704611}
-  - component: {fileID: 942704612}
   - component: {fileID: 942704613}
   m_Layer: 0
   m_Name: Main Camera
@@ -4085,102 +4210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbdfb638a2444ba47b9439b1dbc1d6cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &942704612
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942704606}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36effb04dfea7ba449db080552d99b8e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &942704613
 MonoBehaviour:
   m_ObjectHideFlags: 0

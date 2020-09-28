@@ -8,6 +8,7 @@ TagManager:
   - sfxSlider
   - PressBar
   - Instrument
+  - AudioManager
   layers:
   - Default
   - TransparentFX
