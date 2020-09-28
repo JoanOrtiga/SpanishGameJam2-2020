@@ -48,7 +48,7 @@ public class DialogueSystem : MonoBehaviour
         {
             text.text += dialogueText[nextText][i];
 
-            yield return new WaitForSeconds(timeBetweenText);
+            yield return new WaitForSecondsRealtime(timeBetweenText);
         }
 
         note.SetActive(true);
