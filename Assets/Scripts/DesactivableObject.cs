@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Experimental.Rendering.Universal;
 public class DesactivableObject : MonoBehaviour
 {
     SpriteRenderer spr;
     Collider2D coll;
+    Light2D child;
 
     public bool active;
     private void Start()
     {
         spr = GetComponent<SpriteRenderer>();
         coll = GetComponent<Collider2D>();
+
+        if(transform.childCount != 0)
+            if(transform.GetChild(0).GetComponent<Light2D>() != null)
+                child = transform.GetChild(0).GetComponent<Light2D>();
 
         if (active)
         {
@@ -41,6 +46,9 @@ public class DesactivableObject : MonoBehaviour
     {
         coll.enabled = false;
 
+        if (child!= null)
+            child.enabled = false;
+
         for (float ft = 1f; ft >= 0; ft -= 0.01f)
         {
             spr.color -= new Color(0, 0, 0, ft);
@@ -57,6 +65,9 @@ public class DesactivableObject : MonoBehaviour
         }
 
         coll.enabled = true;
+
+        if (child != null)
+            child.enabled = true;
     }
 
 
