@@ -984,15 +984,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965048, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: m_Color.r
-      value: 0.8396226
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965048, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965048, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965051, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1040,7 +1040,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965051, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.41250005
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1790776956336965051, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1790776956336965054, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
       propertyPath: rotate
@@ -3230,6 +3234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1373499102175087865, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1373499102175087866, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3317,6 +3325,10 @@ PrefabInstance:
     - target: {fileID: 1373499102175087870, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
       propertyPath: m_Name
       value: CanvasDisco
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373499102175087870, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1373499103440647104, guid: dd2d12a0e56cd2246b26610a0003d859, type: 3}
       propertyPath: m_Color.r
@@ -3897,6 +3909,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 994732975728757938, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732975728757938, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732975728757938, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 994732975728757944, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
       propertyPath: m_Name
       value: Pause
@@ -3985,6 +4009,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 994732975757825680, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732975871627684, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0036702545
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732975871627684, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999326
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732975871627684, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.421
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732976144722525, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 994732976457413580, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
@@ -4015,6 +4059,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 994732976842167722, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732977345857780, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994732977426422028, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 994732977743543271, guid: 1897d7bcbd6921a449b09073c9508b19, type: 3}
@@ -6589,42 +6641,52 @@ MonoBehaviour:
     timeToDeActivate: 12.45
     timeToReactivate: 65.77
     active: 0
+    times: 0
   - piece: {fileID: 1772936198}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 0
+    times: 0
   - piece: {fileID: 873191183}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 0
+    times: 0
   - piece: {fileID: 1199391501}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1665325387}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1170847349}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 1865462633}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 233724390}
     timeToDeActivate: 108.44
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1352320388}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 1051213137}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
 --- !u!1 &1865462628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1790776956336965055, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
