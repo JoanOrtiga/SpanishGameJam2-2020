@@ -25,7 +25,7 @@ public class SongConfig : MonoBehaviour
 
         songUI.compasScrollScript.speed = bpm * 0.1f / 120f;
         piecesSpeed = (bpm * -167f / 120f) * Screen.width / 1920;
-        timeToArrive = (bpm * 7.9f / 120f);
+        timeToArrive = (bpm * 8.2f / 120f);
 
         print(piecesSpeed);
 
@@ -33,7 +33,7 @@ public class SongConfig : MonoBehaviour
 
         for (int i = 0; i < attacks.Length; i++)
         {
-            attacks[i].second -= 7.9f;
+            attacks[i].second -= 7.22f;
         }
 
         songUI.pressBar.playedInstrument.AddListener(UpdateHealthBar);

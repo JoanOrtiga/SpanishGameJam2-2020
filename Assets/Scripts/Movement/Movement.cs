@@ -23,8 +23,6 @@ public class Movement : MonoBehaviour
     private float gravityScale;
     [HideInInspector] public bool jumpedOfGround = false;
 
-    public bool isJumping = false;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -86,11 +84,6 @@ public class Movement : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
 
-        if(rb.velocity.y == 0 || rb.velocity.y < 0)
-        {
-            isJumping = false;
-        }
-
         anim.SetBool("OnWall", coll.onWall);
         anim.SetFloat("VerticalSpeed", rb.velocity.y);
     }
@@ -109,8 +102,6 @@ public class Movement : MonoBehaviour
 
     private void Jump(Vector2 dir)
     {
-        isJumping = true;
-
         rb.velocity = dir * jumpforce;
     }
     private void WallJump()
