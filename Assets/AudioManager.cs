@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
         musicSlider.onValueChanged.AddListener(SetVolumeMusic);
-        sfxSlider.onValueChanged.AddListener(SetVolumeMusic);
+        sfxSlider.onValueChanged.AddListener(SetVolumeSFX);
         if (AudioInstance == null)
         {
             AudioInstance = this;
@@ -83,7 +83,7 @@ public class AudioManager : MonoBehaviour
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
         musicSlider.onValueChanged.AddListener(SetVolumeMusic);
-        sfxSlider.onValueChanged.AddListener(SetVolumeMusic);
+        sfxSlider.onValueChanged.AddListener(SetVolumeSFX);
         MusicSetUp();
     }
     void Update()
@@ -92,13 +92,21 @@ public class AudioManager : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        if (playerMovement.isJumping && Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && (playerMovement.GetComponent<Rigidbody2D>().velocity.y < 0.3 && playerMovement.GetComponent<Rigidbody2D>().velocity.y > -0.3))
         {
             sounds[UnityEngine.Random.Range(0, 3)].source.Play();
         }
         if (playerMovement.dashing && !sounds[3].source.isPlaying)
         {
             sounds[3].source.Play();
+        }
+        if (Time.timeScale == 0)
+        {
+            music.Pause();
+        }
+        else if (!music.isPlaying)
+        {
+            music.Play();
         }
     }
 }

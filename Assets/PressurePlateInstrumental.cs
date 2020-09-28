@@ -30,7 +30,7 @@ public class PressurePlateInstrumental : MonoBehaviour
                 if(instrument == pressbar.whatInstrument)
                 {
                     print("Pressed");
-                    camera.Shake(0.15f, 0.05f);
+                    camera.Shake(0.1f, 0.045f);
                     pressbar.ChangePressed();
                 }
             }
