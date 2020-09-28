@@ -4095,8 +4095,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2064400735
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2980488699247926780, guid: a57c7dc8f0240d74a903e56179fedf4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.45490196}
@@ -6589,42 +6589,52 @@ MonoBehaviour:
     timeToDeActivate: 12.45
     timeToReactivate: 65.77
     active: 0
+    times: 0
   - piece: {fileID: 1772936198}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 0
+    times: 0
   - piece: {fileID: 873191183}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 0
+    times: 0
   - piece: {fileID: 1199391501}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1665325387}
     timeToDeActivate: 101.33
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1170847349}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 1865462633}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 233724390}
     timeToDeActivate: 108.44
     timeToReactivate: 101.33
     active: 1
+    times: 0
   - piece: {fileID: 1352320388}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
   - piece: {fileID: 1051213137}
     timeToDeActivate: 108.44
     timeToReactivate: 108.44
     active: 1
+    times: 0
 --- !u!1 &1865462628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1790776956336965055, guid: 2f8280338ca72c841abf030bd31f42c6, type: 3}
