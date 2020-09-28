@@ -21,10 +21,12 @@ public class SongConfig : MonoBehaviour
     private int health;
     public int playerHealth = 3;
     public GameObject failedDialogue;
+    public ChangeSpriteHealth hearth;
 
     public void LowerHealth()
     {
         playerHealth--;
+        hearth.ChangeSprite(playerHealth);
 
         if(playerHealth <= 0)
         {

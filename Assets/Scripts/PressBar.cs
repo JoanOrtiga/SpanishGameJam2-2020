@@ -25,6 +25,12 @@ public class PressBar : MonoBehaviour
         {
             pressed = true;
             image.color = Color.green;
+
+            if(whatInstrument == InstrumentAttack.drop)
+            {
+                transform.GetChild(0).gameObject.SetActive(true);
+            }
+            
             playedInstrument.Invoke();
         }
     }
