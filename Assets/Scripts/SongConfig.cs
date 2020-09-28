@@ -47,7 +47,7 @@ public class SongConfig : MonoBehaviour
         switch(SceneManager.GetActiveScene().buildIndex)
         {
             case 1:
-                timeToArrive = 7.22f;
+                timeToArrive = 7.4f;
                 break;
             case 2:
                 timeToArrive = 7.22f;
