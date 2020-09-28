@@ -7743,19 +7743,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueText.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueText.Array.data[0]
-      value: "Ahora en lugar de ser un m\xFAsico terrible, eres un musico catastrofico."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueText.Array.data[1]
-      value: La suerte del novato...
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueText.Array.data[2]
-      value: Ahora te enteraras
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: dialogueText.Array.data[3]
