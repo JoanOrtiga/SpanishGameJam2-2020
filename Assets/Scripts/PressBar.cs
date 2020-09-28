@@ -60,7 +60,6 @@ public class PressBar : MonoBehaviour
                 error.Invoke();
             }
                 
-
             pressed = false;
         }
     }
