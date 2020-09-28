@@ -4,9 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class AudioManager : MonoBehaviour
 {
+    public UnityEvent songFinished;
+
     [System.Serializable]
     public class Sound
     {
@@ -90,7 +93,8 @@ public class AudioManager : MonoBehaviour
     {
         if (music.clip.length < Time.timeSinceLevelLoad)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Time.timeScale = 0;
+            songFinished.Invoke();
         }
         if (Input.GetKeyDown(KeyCode.Space) && (playerMovement.GetComponent<Rigidbody2D>().velocity.y < 0.3 && playerMovement.GetComponent<Rigidbody2D>().velocity.y > -0.3))
         {

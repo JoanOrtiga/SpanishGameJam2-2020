@@ -7,6 +7,7 @@ public class MenuManager : MonoBehaviour
 {
     public int sceneToLoad;
     public GameObject gameObjectToShow;
+    
 
     public void LoadScene()
     {
