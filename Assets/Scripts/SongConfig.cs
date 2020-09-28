@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SongConfig : MonoBehaviour
 {
@@ -25,15 +26,31 @@ public class SongConfig : MonoBehaviour
 
         songUI.compasScrollScript.speed = bpm * 0.1f / 120f;
         piecesSpeed = (bpm * -167f / 120f) * Screen.width / 1920;
-        timeToArrive = (bpm * 8.2f / 120f);
-
-        print(piecesSpeed);
 
         NewPreviewInstrument(attacks[0].instrument);
 
+        switch(SceneManager.GetActiveScene().buildIndex)
+        {
+            case 1:
+                timeToArrive = 7.22f;
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                timeToArrive = 7f;
+                break;
+            case 6:
+                timeToArrive = 8.3f;
+                break;
+        }
+
         for (int i = 0; i < attacks.Length; i++)
         {
-            attacks[i].second -= 7.22f;
+            attacks[i].second -= timeToArrive;
         }
 
         songUI.pressBar.playedInstrument.AddListener(UpdateHealthBar);
