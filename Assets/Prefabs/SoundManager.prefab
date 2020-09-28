@@ -44,6 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bfcc08e4d261014fb7fd684db3e57ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  songFinished:
+    m_PersistentCalls:
+      m_Calls: []
   sounds:
   - name: Jump1
     clip: {fileID: 8300000, guid: fa7c365312d337445bc3eca16ff6b4bf, type: 3}
@@ -66,13 +69,13 @@ MonoBehaviour:
     source: {fileID: 0}
     startVolume: 0
   musicClips:
+  - {fileID: 8300000, guid: f013fb877e9527a4f8640755bd8ab755, type: 3}
+  - {fileID: 8300000, guid: 3a5604e20aa93f148b2134e3fc825cb4, type: 3}
   - {fileID: 8300000, guid: 262712323dd726548b6d64f09cf0fa2e, type: 3}
   - {fileID: 8300000, guid: 9dd2dec4132d7454e8de31ab153e4807, type: 3}
-  - {fileID: 8300000, guid: 9dd2dec4132d7454e8de31ab153e4807, type: 3}
+  - {fileID: 8300000, guid: 36effb04dfea7ba449db080552d99b8e, type: 3}
   MusicVolume: 1
   SFXVolume: 1
-  musicSlider: {fileID: 0}
-  sfxSlider: {fileID: 0}
 --- !u!82 &3267166493369668309
 AudioSource:
   m_ObjectHideFlags: 0

@@ -48,9 +48,12 @@ public class SongConfig : MonoBehaviour
                 timeToArrive = 7.22f;
                 break;
             case 2:
-                timeToArrive = 8.45f;
+                timeToArrive = 7.22f;
                 break;
             case 3:
+                timeToArrive = 8.65f;
+                break;
+            case 4:
                 timeToArrive = 8.3f;
                 break;
         }
