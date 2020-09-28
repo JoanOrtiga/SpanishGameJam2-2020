@@ -35,11 +35,16 @@ public class AudioManager : MonoBehaviour
     {
         musicSlider = GameObject.FindGameObjectWithTag("MusicSlider").GetComponent<Slider>();
         sfxSlider = GameObject.FindGameObjectWithTag("sfxSlider").GetComponent<Slider>();
-        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>();
+
+
+        if(GameObject.FindGameObjectWithTag("Player")!= null)
+            playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>();
+
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
         musicSlider.onValueChanged.AddListener(SetVolumeMusic);
         sfxSlider.onValueChanged.AddListener(SetVolumeSFX);
+
         if (AudioInstance == null)
         {
             AudioInstance = this;
@@ -48,6 +53,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
         music = GetComponent<AudioSource>();
         foreach (Sound s in sounds)
         {
@@ -104,10 +110,13 @@ public class AudioManager : MonoBehaviour
         {
             sounds[UnityEngine.Random.Range(0, 3)].source.Play();
         }
+
+        if(playerMovement != null)
         if (playerMovement.dashing && !sounds[3].source.isPlaying)
         {
             sounds[3].source.Play();
         }
+
         if (Time.timeScale == 0)
         {
             music.Pause();

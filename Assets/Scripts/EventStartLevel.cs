@@ -13,6 +13,8 @@ public class EventStartLevel : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 0;
+
+        GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>().songFinished.AddListener(FinishDialogue);
     }
 
     private void Update()
