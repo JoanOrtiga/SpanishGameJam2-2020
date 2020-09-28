@@ -18,6 +18,19 @@ public class SongConfig : MonoBehaviour
     private float timeToArrive;
 
     private int health;
+    public int playerHealth = 3;
+    public GameObject failedDialogue;
+
+    public void LowerHealth()
+    {
+        playerHealth--;
+
+        if(playerHealth <= 0)
+        {
+            Time.timeScale = 0;
+            failedDialogue.SetActive(true);
+        }
+    }
 
     private void Start()
     {

@@ -17,6 +17,7 @@ public class DialogueSystem : MonoBehaviour
     public GameObject dialogueUI;
 
     public bool nextLevel;
+    public bool resetLevel;
 
     int character = 0;
 
@@ -46,6 +47,10 @@ public class DialogueSystem : MonoBehaviour
                     }
 
                     UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneLoad);
+                }
+                else if (resetLevel)
+                {
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
                 }
 
                 dialogueUI.SetActive(false);

@@ -14,6 +14,8 @@ public class PressBar : MonoBehaviour
 
     public UnityEvent playedInstrument;
 
+    public UnityEvent error;
+
 
     private bool pressed;
     
@@ -47,7 +49,11 @@ public class PressBar : MonoBehaviour
             playingInstrument = false;
 
             if(pressed == false)
+            {
                 image.color = Color.red;
+                error.Invoke();
+            }
+                
 
             pressed = false;
         }
