@@ -91,13 +91,13 @@ public class AudioManager : MonoBehaviour
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>();
         musicSlider.value = MusicVolume;
         sfxSlider.value = SFXVolume;
-
+        MusicSetUp();
         music.Stop();
         music.Play();
 
         musicSlider.onValueChanged.AddListener(SetVolumeMusic);
         sfxSlider.onValueChanged.AddListener(SetVolumeSFX);
-        MusicSetUp();
+
     }
     void Update()
     {
