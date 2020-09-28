@@ -27,6 +27,7 @@ public class DesactivableObject : MonoBehaviour
 
     public void DeActivate()
     {
+        StopCoroutine(IncreaseOpacity());
         StartCoroutine(LowerOpacity());
     }
 
