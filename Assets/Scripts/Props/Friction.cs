@@ -16,7 +16,7 @@ public class Friction : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetAxisRaw("Horizontal") == 0)
+        if (Input.GetAxis("Horizontal") == 0)
         {
             coll.sharedMaterial = frictionless;
         }

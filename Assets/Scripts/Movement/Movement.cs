@@ -23,6 +23,8 @@ public class Movement : MonoBehaviour
     private float gravityScale;
     [HideInInspector] public bool jumpedOfGround = false;
 
+    public ParticleSystem runningRight;
+    public ParticleSystem runningLeft;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -55,10 +57,8 @@ public class Movement : MonoBehaviour
                 {
                     anim.SetFloat("VerticalSpeed", rb.velocity.y);
                     anim.SetTrigger("Jump");
-                    
                 }
-
-                
+  
                 Jump(Vector2.up);
             }
                
@@ -78,10 +78,37 @@ public class Movement : MonoBehaviour
         if(Input.GetAxis("Horizontal") < 0)
         {
             transform.localScale = new Vector2(-1, 1);
+
+            if (coll.onGround && rb.velocity.y == 0)
+            {
+                runningRight.Clear();
+
+                runningLeft.enableEmission = true;
+                runningRight.enableEmission = false;
+            }
         }
         else if (Input.GetAxis("Horizontal") > 0)
         {
             transform.localScale = new Vector2(1, 1);
+
+            if (coll.onGround && rb.velocity.y == 0)
+            {
+                runningLeft.Clear();
+
+                runningLeft.enableEmission = false;
+                runningRight.enableEmission = true;
+            }
+        }
+
+        if(rb.velocity.y != 0 || !coll.onGround || Input.GetAxis("Horizontal") == 0)
+        {
+            if (rb.velocity.y != 0 || !coll.onGround)
+            {
+                runningLeft.Clear();
+                runningRight.Clear();
+            }
+            runningLeft.enableEmission = false;
+            runningRight.enableEmission = false;
         }
 
         anim.SetBool("OnWall", coll.onWall);
