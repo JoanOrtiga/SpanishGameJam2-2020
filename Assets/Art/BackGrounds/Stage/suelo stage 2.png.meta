@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: cec2ed9aba20c58459983b966128e798
+guid: fdb26f5c442f5f3408de8be17a2b7f28
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7608460354385858486
-    second: Suelo_lvl_2_0
+      213: 702207891494790718
+    second: suelo stage 2_0
   - first:
-      213: -8635182873709317086
-    second: Suelo_lvl_2_1
+      213: 3162957707450495348
+    second: suelo stage 2_1
   - first:
-      213: -4978733696451201112
-    second: Suelo_lvl_2_2
-  - first:
-      213: 1929124301171246861
-    second: Suelo_lvl_2_1
-  - first:
-      213: 3078213738467809350
-    second: Suelo_lvl_2_2
+      213: -8943241205205514703
+    second: suelo stage 2_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,10 +52,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,64 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Suelo_lvl_2_0
+      name: suelo stage 2_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 65
-        width: 80
-        height: 21
+        x: 25
+        y: 103
+        width: 88
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 41, y: 3, z: 38, w: 17}
+      pivot: {x: 0, y: 0}
+      border: {x: 41, y: 1, z: 39, w: 17}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bfcfc6816ea69960800000000000000
-      internalID: 7608460354385858486
+      spriteID: e36e50b5b5ebeb900800000000000000
+      internalID: 702207891494790718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suelo_lvl_2_1
+      name: suelo stage 2_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 44
-        height: 45
+        x: 25
+        y: 52
+        width: 45
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 9, z: 35, w: 33}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 6, z: 37, w: 37}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07c2eab450a5ca10800000000000000
-      internalID: 1929124301171246861
+      spriteID: 471bb20e64515eb20800000000000000
+      internalID: 3162957707450495348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Suelo_lvl_2_2
+      name: suelo stage 2_2
       rect:
         serializedVersion: 2
-        x: 55
-        y: 8
-        width: 56
-        height: 52
+        x: 70
+        y: 44
+        width: 63
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 34, y: 35, z: 21, w: 16}
+      pivot: {x: 0, y: 0}
+      border: {x: 41, y: 37, z: 16, w: 17}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 648d918061308ba20800000000000000
-      internalID: 3078213738467809350
+      spriteID: 136c617d18933e380800000000000000
+      internalID: -8943241205205514703
       vertices: []
       indices: 
       edges: []
