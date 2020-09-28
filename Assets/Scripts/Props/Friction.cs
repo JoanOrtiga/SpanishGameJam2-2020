@@ -9,14 +9,23 @@ public class Friction : MonoBehaviour
 
     Collider2D coll;
 
+    float timePressedJump;
+    float timeUntilUnactive = 1f;
+
     private void Start()
     {
         coll = GetComponent<Collider2D>();
+        timePressedJump = timeUntilUnactive;
     }
 
     private void Update()
     {
-        if (Input.GetAxis("Horizontal") == 0)
+        if (Input.GetButton("Jump"))
+            timePressedJump -= Time.deltaTime;
+        else
+            timePressedJump = timeUntilUnactive;
+
+        if (Input.GetAxis("Horizontal") == 0 || timePressedJump <= 0)
         {
             coll.sharedMaterial = frictionless;
         }

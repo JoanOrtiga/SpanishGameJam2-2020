@@ -16,6 +16,10 @@ public class DialogueSystem : MonoBehaviour
     public GameObject note;
     public GameObject dialogueUI;
 
+    public bool nextLevel;
+
+    int character = 0;
+
     private void Start()
     {
         text = GetComponent<Text>();
@@ -23,20 +27,32 @@ public class DialogueSystem : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetButtonDown("Jump") || Input.GetButtonDown("Action") || Input.GetButtonDown("Submit"))
+        if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Action") || Input.GetButtonDown("Submit"))
         {
-            
-
             note.SetActive(false);
             text.text = "";
             nextText++;
 
-            if (nextText >= dialogueText.Length)
+            if (nextText >= dialogueText.Length - 1)
             {
+                if (nextLevel)
+                {
+                    int nextSceneLoad = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1;
+
+                    if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+                    {
+                        PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+
+                    }
+
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneLoad);
+                }
+
                 dialogueUI.SetActive(false);
             }
             else
             {
+                StopCoroutine(WriteText());
                 StartCoroutine(WriteText());
             }
         }
@@ -44,18 +60,22 @@ public class DialogueSystem : MonoBehaviour
 
     IEnumerator WriteText()
     {
-        for (int i = 0; i < dialogueText[nextText].Length; i++)
-        {
-            text.text += dialogueText[nextText][i];
+        character = 0;
 
+        while (character < dialogueText[nextText].Length)
+        {
+            text.text += dialogueText[nextText][character];
+
+            character++;
             yield return new WaitForSecondsRealtime(timeBetweenText);
         }
 
+
         note.SetActive(true);
-
-
-        
     }
 
-
+    private void OnDisable()
+    {
+        Time.timeScale = 1f;
+    }
 }
