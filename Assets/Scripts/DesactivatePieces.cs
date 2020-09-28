@@ -12,27 +12,33 @@ public class DesactivatePieces : MonoBehaviour
     {
         for (int i = 0; i < pieces.Length; i++)
         {
-            if (pieces[i].active)
+            if((pieces[i].times < 2))
             {
-                pieces[i].timeToDeActivate -= Time.deltaTime;
-
-                if (pieces[i].timeToDeActivate <= 0)
+                if (pieces[i].active)
                 {
-                    pieces[i].active = false;
-                    pieces[i].piece.DeActivate();
+                    pieces[i].timeToDeActivate -= Time.deltaTime;
+
+                    if (pieces[i].timeToDeActivate <= 0)
+                    {
+                        pieces[i].active = false;
+                        pieces[i].times++;
+                        pieces[i].piece.DeActivate();
+                    }
+                }
+                else
+                {
+                    pieces[i].timeToReactivate -= Time.deltaTime;
+
+                    if (pieces[i].timeToReactivate <= 0)
+                    {
+                        pieces[i].active = true;
+                        pieces[i].times++;
+                        pieces[i].piece.ReActivate();
+                        
+                    }
                 }
             }
-            else
-            {
-                pieces[i].timeToReactivate -= Time.deltaTime;
 
-                if (pieces[i].timeToReactivate <= 0)
-                {
-                    pieces[i].active = true;
-                    pieces[i].piece.ReActivate();
-                }
-            }
-            
         }
     }
 }
@@ -44,4 +50,5 @@ public struct Pieces
     public float timeToDeActivate;
     public float timeToReactivate;
     public bool active;
+    public int times;
 }

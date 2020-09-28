@@ -587,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308598832943, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308776440653, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5531,6 +5531,10 @@ PrefabInstance:
       propertyPath: dialogueText.Array.data[7]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4148972308300218884, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
+      propertyPath: nextLevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4148972308300218887, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_Text
       value: Hola, soy DJ Anikilator
@@ -5625,7 +5629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308598832943, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4148972308776440653, guid: 51570d8d74676fe44893e093e05fd1c7, type: 3}
       propertyPath: m_AnchoredPosition.y
